@@ -35,7 +35,7 @@ public class Main {
 			for (int I = 0; I < args.length; I += 2) {
 				String KEY = args[I];
 				String VAL = args[I + 1];
-				
+
 				switch (KEY) {
 					case "--mode": {
 						if (VAL.equals("parent")) {
@@ -48,7 +48,7 @@ public class Main {
 						}
 						break;
 					}
-				
+
 					default: {
 						System.err.println("エラー:コマンドライン引数が意味不明です");
 						System.exit(1);
