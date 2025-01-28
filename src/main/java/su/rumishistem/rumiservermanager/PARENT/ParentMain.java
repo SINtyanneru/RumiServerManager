@@ -1,9 +1,9 @@
-package com.rumisystem.rumiservermanager.PARENT;
+package su.rumishistem.rumiservermanager.PARENT;
 
 import static com.rumisystem.rumi_java_lib.LOG_PRINT.Main.LOG;
-import static com.rumisystem.rumiservermanager.Main.CONFIG_DATA;
-import static com.rumisystem.rumiservermanager.Main.VERSION;
-import static com.rumisystem.rumiservermanager.Main.EXP;
+import static su.rumishistem.rumiservermanager.Main.CONFIG_DATA;
+import static su.rumishistem.rumiservermanager.Main.EXP;
+import static su.rumishistem.rumiservermanager.Main.VERSION;
 
 import java.io.File;
 import java.io.IOException;
@@ -18,7 +18,8 @@ import com.fasterxml.jackson.databind.JsonNode;
 import com.fasterxml.jackson.databind.ObjectMapper;
 import com.rumisystem.rumi_java_lib.HASH;
 import com.rumisystem.rumi_java_lib.HASH.HASH_TYPE;
-import com.rumisystem.rumiservermanager.TYPE.SERVER_INFO;
+
+import su.rumishistem.rumiservermanager.TYPE.SERVER_INFO;
 
 public class ParentMain {
 	public ParentMain THIS = this;

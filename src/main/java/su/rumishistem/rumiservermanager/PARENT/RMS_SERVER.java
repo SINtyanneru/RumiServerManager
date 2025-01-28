@@ -1,9 +1,9 @@
-package com.rumisystem.rumiservermanager.PARENT;
+package su.rumishistem.rumiservermanager.PARENT;
 
 import static com.rumisystem.rumi_java_lib.LOG_PRINT.Main.LOG;
-import static com.rumisystem.rumiservermanager.Main.CONFIG_DATA;
-import static com.rumisystem.rumiservermanager.Main.EXP;
-import static com.rumisystem.rumiservermanager.Main.VERSION;
+import static su.rumishistem.rumiservermanager.Main.CONFIG_DATA;
+import static su.rumishistem.rumiservermanager.Main.EXP;
+import static su.rumishistem.rumiservermanager.Main.VERSION;
 
 import java.io.IOException;
 
@@ -15,8 +15,9 @@ import com.rumisystem.rumi_java_lib.Socket.Server.EVENT.CloseEvent;
 import com.rumisystem.rumi_java_lib.Socket.Server.EVENT.EVENT_LISTENER;
 import com.rumisystem.rumi_java_lib.Socket.Server.EVENT.MessageEvent;
 import com.rumisystem.rumi_java_lib.Socket.Server.EVENT.ReceiveEvent;
-import com.rumisystem.rumiservermanager.TYPE.CLIENT_TYPE;
-import com.rumisystem.rumiservermanager.TYPE.SERVER_INFO;
+
+import su.rumishistem.rumiservermanager.TYPE.CLIENT_TYPE;
+import su.rumishistem.rumiservermanager.TYPE.SERVER_INFO;
 
 public class RMS_SERVER {
 	public void Main(ParentMain MAIN) throws IOException {

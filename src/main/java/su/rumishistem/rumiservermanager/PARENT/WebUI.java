@@ -1,9 +1,9 @@
-package com.rumisystem.rumiservermanager.PARENT;
+package su.rumishistem.rumiservermanager.PARENT;
 
 import static com.rumisystem.rumi_java_lib.LOG_PRINT.Main.LOG;
-import static com.rumisystem.rumiservermanager.Main.CONFIG_DATA;
-import static com.rumisystem.rumiservermanager.Main.EXP;
-import static com.rumisystem.rumiservermanager.Main.VERSION;
+import static su.rumishistem.rumiservermanager.Main.CONFIG_DATA;
+import static su.rumishistem.rumiservermanager.Main.EXP;
+import static su.rumishistem.rumiservermanager.Main.VERSION;
 
 import java.io.IOException;
 import java.util.HashMap;

@@ -1,4 +1,4 @@
-package com.rumisystem.rumiservermanager;
+package su.rumishistem.rumiservermanager;
 
 import static com.rumisystem.rumi_java_lib.LOG_PRINT.Main.LOG;
 
@@ -8,8 +8,9 @@ import com.rumisystem.rumi_java_lib.ArrayNode;
 import com.rumisystem.rumi_java_lib.CONFIG;
 import com.rumisystem.rumi_java_lib.EXCEPTION_READER;
 import com.rumisystem.rumi_java_lib.LOG_PRINT.LOG_TYPE;
-import com.rumisystem.rumiservermanager.PARENT.ParentMain;
-import com.rumisystem.rumiservermanager.TYPE.START_MODE;
+
+import su.rumishistem.rumiservermanager.PARENT.ParentMain;
+import su.rumishistem.rumiservermanager.TYPE.START_MODE;
 
 public class Main {
 	public static final String VERSION = "0.5";

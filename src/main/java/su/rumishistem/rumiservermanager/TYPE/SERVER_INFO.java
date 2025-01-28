@@ -1,4 +1,4 @@
-package com.rumisystem.rumiservermanager.TYPE;
+package su.rumishistem.rumiservermanager.TYPE;
 
 import com.rumisystem.rumi_java_lib.Socket.Server.CONNECT_EVENT.CONNECT_EVENT;
 
